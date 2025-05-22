@@ -1,0 +1,98 @@
+.logo-image{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    border-radius: 30px;
+    object-fit: cover;
+    border:solid #da0000;
+    
+}
+h1 {
+    color:#e0002c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border: #e90f0f;
+    border-radius: 4px;
+    background-color: #fbb7c3;
+    text-align: left;
+    text-decoration: dashed;
+    
+}
+h2{
+    color: #e0002c;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: px;
+    background-color: #fbb7c3;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+}
+.site-header{
+    background-color: #fbb7c3;
+    box-shadow: #000000;
+    position: sticky;
+    top: 0;
+    padding: 50px 0;
+}
+.container {
+    max-width: 1100px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 65px;
+    background-color: #fbb7c3;
+    position: sticky;
+    z-index: index 1000; 
+    text-align: right;
+    list-style: none;
+    gap: 15px;
+
+    
+}
+.logo {
+    font-size: 1.8em;
+    font-weight: 700;
+    
+}
+.navbar {
+    display: flex;
+    gap: 1px;
+    text-align: right;
+
+}
+
+.nav-links li a { 
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+    padding: 6px 12px;
+    transition: all 0.3s ease;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.nav-links li :hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.buy-box input {
+    padding: 6px 12px;
+    border: 1px solid cent #fffefe;
+    border-radius: 12px;
+    outline: #fbb7c3;
+    transition: all 0.3s ease;
+}
+.buy-box input:focus {
+    width: 180px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.nav-links {
+    display: flex;
+    gap: 12px;
+}
+.p header {
+   color: #200a83;
+
+}
